@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.nirjon.bledemo4_advertising.MainActivity">
+
+    <TextView
+        android:text="Broadcast BLE Advertisement:"
+        android:textStyle="bold"
+        android:textColor="#000081"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Switch
+        android:text="Enable Advertising: "
+        android:id="@+id/switchID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checked="false"
+    />
+
+    <TextView
+        android:id="@+id/tv"
+        android:text="Ready to advertise."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+    <TextView
+        android:text="Receive BLE Advertisement:"
+        android:textStyle="bold"
+        android:textColor="#000081"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Switch
+        android:text="Enable Receiving: "
+        android:id="@+id/switchIDR"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checked="false"
+        />
+
+    <TextView
+        android:id="@+id/tvr"
+        android:text="Ready to receive."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
